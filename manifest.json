@@ -1,0 +1,16 @@
+{
+    "name": "Free press reader",
+    "description": "Prensa española sin tontás",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.elespanol.com/*"
+            ],
+            "js": [
+                "espanol_remover.js"
+            ]
+        }
+    ]
+}
